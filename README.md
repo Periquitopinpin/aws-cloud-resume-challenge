@@ -2,7 +2,7 @@
 
 Track visits to your website in real time using a fully serverless architecture powered by AWS Lambda, DynamoDB, and a direct Lambda Function URL endpoint.
 
-![Architecture Diagram](https://user-images.githubusercontent.com/your-diagram.png) <!-- Optional: Add your own diagram -->
+![Architecture Diagram](https://user-images.githubusercontent.com/image.png) 
 
 ---
 
