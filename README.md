@@ -15,8 +15,8 @@ Try it live: [https://pedroaragoncloud.com](https://pedroaragoncloud.com)
 ## 📦 Stack
 
 - **Frontend**: Static website hosted with visitor count logic in JavaScript
-- **Backend**: AWS Lambda (Python)
-- **Database**: Amazon DynamoDB (serverless, pay-per-request)
+- **Backend**: AWS Lambda 
+- **Database**: Amazon DynamoDB 
 - **API**: AWS Lambda Function URL with CORS support
 - **Infrastructure as Code**: Terraform
 
@@ -34,22 +34,8 @@ Try it live: [https://pedroaragoncloud.com](https://pedroaragoncloud.com)
 
 ## 🧠 Architecture
 
-1. User visits your website.
-2. JavaScript code sends a POST request to a public AWS Lambda Function URL.
+1. User visits the website.
+2. JavaScript code sends a POST request to the AWS Lambda Function URL.
 3. Lambda securely updates the `viewer-count` item in DynamoDB.
 4. Response returns updated visitor count.
 5. All resources are provisioned and managed using Terraform.
-
----
-
-## 🧪 How to Test It
-
-### Option 1: Web
-Open [https://pedroaragoncloud.com](https://pedroaragoncloud.com) and open your browser dev tools to see the network request.
-
-### Option 2: Postman or Curl
-
-```bash
-curl -X POST https://your-lambda-url.on.aws \
-  -H "Content-Type: application/json" \
-  -d "{}"
