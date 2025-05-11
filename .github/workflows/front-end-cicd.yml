@@ -22,7 +22,7 @@ jobs:
 
     - name: Deploy to S3
       run: |
-        aws s3 sync ./your-site-directory s3://your-s3-bucket-name --delete
+        aws s3 sync ./cv s3://pedroaragoncloud.com --delete
 
     - name: Invalidate CloudFront cache
       run: |
