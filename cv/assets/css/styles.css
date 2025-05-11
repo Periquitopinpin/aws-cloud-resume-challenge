@@ -273,8 +273,8 @@ body.dark-theme{
 }
 
 .home__perfil{
-  width: 240px;
-  height: 270px;
+  width: 230px;
+  height: 240px;
   background: linear-gradient(132deg,
              hsl(45, 6%, 70%) 25%,
              hsl(30, 12%, 50%)105%);
@@ -575,12 +575,12 @@ body.dark-theme{
     margin-bottom: .5rem;
   }
   .home__perfil{
-    width: 280px;
-    height: 320px;
+    width: 260px;
+    height: 272px;
   }
 
   .home__img{
-    width: 260px;
+    width: 270px;
   }
 
   .home__star-1,
